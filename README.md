@@ -1,1 +1,1 @@
-[My profile's link] (https://github.com/green-fox-academy/oonam)
+[My profile's link](https://github.com/green-fox-academy/oonam)
