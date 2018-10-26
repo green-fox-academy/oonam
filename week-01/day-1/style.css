@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url("top.png");
+}
+
+article {
+    margin: auto;
+    padding: 5% 10%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #ff0099;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-family: "Consolas", "Courier";
+}
+
+nav {
+    background-color: #333;
+    text-align: right;
+    padding: 0 10%;
+}
+
+a {
+    color: #ff0099;
+    padding: 0 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.divider {
+    margin: 50px 0;
+}
