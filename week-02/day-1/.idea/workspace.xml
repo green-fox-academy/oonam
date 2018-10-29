@@ -24,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="445" />
+          <entry key="java" value="1609" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="445" />
+          <entry key="JAVA" value="1609" />
         </counts>
       </usages-collector>
     </session>
@@ -47,28 +47,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/IntroduceYourself.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Bmi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TwoNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DefineBasicInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="187">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/CodingHours.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/VariableMutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state relative-caret-position="209">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -96,6 +96,11 @@
         <option value="$PROJECT_DIR$/src/com/company/IntroduceYourself.java" />
         <option value="$PROJECT_DIR$/src/com/company/TwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/company/CodingHours.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FavoriteNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Swap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Bmi.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DefineBasicInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/VariableMutation.java" />
       </list>
     </option>
   </component>
@@ -145,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540818367119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540821844413" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -160,9 +165,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingHours">
-    <configuration name="CodingHours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CodingHours" />
+  <component name="RunManager" selected="Application.VariableMutation">
+    <configuration name="Bmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Bmi" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HelloOthers" />
+    <configuration name="DefineBasicInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DefineBasicInfo" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -187,21 +192,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HumptyDumpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HumptyDumpty" />
-      <module name="day-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntroduceYourself" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.IntroduceYourself" />
+    <configuration name="FavoriteNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FavoriteNumber" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +215,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TwoNumbers" />
+    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Swap" />
+      <module name="day-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.VariableMutation" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -238,19 +243,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.HumptyDumpty" />
-      <item itemvalue="Application.HelloOthers" />
-      <item itemvalue="Application.IntroduceYourself" />
-      <item itemvalue="Application.TwoNumbers" />
-      <item itemvalue="Application.CodingHours" />
+      <item itemvalue="Application.FavoriteNumber" />
+      <item itemvalue="Application.Swap" />
+      <item itemvalue="Application.Bmi" />
+      <item itemvalue="Application.DefineBasicInfo" />
+      <item itemvalue="Application.VariableMutation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodingHours" />
-        <item itemvalue="Application.TwoNumbers" />
-        <item itemvalue="Application.IntroduceYourself" />
-        <item itemvalue="Application.HelloOthers" />
-        <item itemvalue="Application.HumptyDumpty" />
+        <item itemvalue="Application.VariableMutation" />
+        <item itemvalue="Application.DefineBasicInfo" />
+        <item itemvalue="Application.Bmi" />
+        <item itemvalue="Application.Swap" />
+        <item itemvalue="Application.FavoriteNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -264,12 +269,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540811864980</updated>
-      <workItem from="1540811873041" duration="3967000" />
+      <workItem from="1540811873041" duration="7404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3967000" />
+    <option name="totallyTimeSpent" value="7404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
@@ -282,7 +287,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16372392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -369,6 +374,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FavoriteNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Bmi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DefineBasicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/VariableMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>
