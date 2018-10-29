@@ -24,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2677" />
+          <entry key="java" value="2990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2677" />
+          <entry key="JAVA" value="2990" />
         </counts>
       </usages-collector>
     </session>
@@ -47,19 +47,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AnimalsAndLegs.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/OneTwoALot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AverageOfInput.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/PrintBigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="340">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,6 +99,9 @@
         <option value="$PROJECT_DIR$/src/com/company/MileToKmConverter.java" />
         <option value="$PROJECT_DIR$/src/com/company/AnimalsAndLegs.java" />
         <option value="$PROJECT_DIR$/src/com/company/AverageOfInput.java" />
+        <option value="$PROJECT_DIR$/src/com/company/OddEven.java" />
+        <option value="$PROJECT_DIR$/src/com/company/OneTwoALot.java" />
+        <option value="$PROJECT_DIR$/src/com/company/PrintBigger.java" />
       </list>
     </option>
   </component>
@@ -147,8 +151,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540826348639" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540828060039" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AverageOfInput">
+  <component name="RunManager" selected="Application.PrintBigger">
     <configuration name="AnimalsAndLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AnimalsAndLegs" />
       <module name="day-1" />
@@ -189,19 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HelloUser" />
-      <module name="day-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="day-1" />
@@ -212,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MileToKmConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MileToKmConverter" />
+    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OddEven" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -225,8 +216,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SecondsInADay" />
+    <configuration name="OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OneTwoALot" />
+      <module name="day-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintBigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PrintBigger" />
       <module name="day-1" />
       <extension name="coverage">
         <pattern>
@@ -240,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SecondsInADay" />
-      <item itemvalue="Application.HelloUser" />
-      <item itemvalue="Application.MileToKmConverter" />
       <item itemvalue="Application.AnimalsAndLegs" />
       <item itemvalue="Application.AverageOfInput" />
+      <item itemvalue="Application.OddEven" />
+      <item itemvalue="Application.OneTwoALot" />
+      <item itemvalue="Application.PrintBigger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintBigger" />
+        <item itemvalue="Application.OneTwoALot" />
+        <item itemvalue="Application.OddEven" />
         <item itemvalue="Application.AverageOfInput" />
         <item itemvalue="Application.AnimalsAndLegs" />
-        <item itemvalue="Application.MileToKmConverter" />
-        <item itemvalue="Application.HelloUser" />
-        <item itemvalue="Application.SecondsInADay" />
       </list>
     </recent_temporary>
   </component>
@@ -266,15 +270,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540811864980</updated>
-      <workItem from="1540811873041" duration="11246000" />
+      <workItem from="1540811873041" duration="12940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11246000" />
+    <option name="totallyTimeSpent" value="12940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -445,8 +450,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AverageOfInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OneTwoALot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/PrintBigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
