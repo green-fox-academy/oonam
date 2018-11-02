@@ -16,7 +16,9 @@ public class Bubble {
 
         int[] anArray = {34, 12, 94, 9, 5};
         boolean button = true;
-
+//        Arrays.sort(anArray);
+//        System.out.println(Arrays.toString(anArray));
+//
 //        int[] sortedArray = bubble(anArray);
 //        printArray(sortedArray);
 
