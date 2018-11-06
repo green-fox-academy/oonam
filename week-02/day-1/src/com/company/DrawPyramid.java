@@ -4,17 +4,19 @@ public class DrawPyramid {
     public static void main(String[] args) {
         int num = 4;
 
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                if (j == num - 1){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+        int space = num - 1;
+
+        for (int j = 1; j <= num; j++) {
+            for (int i = 1; i <= space; i++) {
+                System.out.print("-");
             }
+
+            for (int i = space + 1; i <= space + (2 * j) - 1; i++) {
+                System.out.print("*");
+            }
+
+            space--;
             System.out.println();
         }
-
-
     }
 }
