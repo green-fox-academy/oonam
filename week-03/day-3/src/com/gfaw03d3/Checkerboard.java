@@ -30,7 +30,7 @@ public class Checkerboard {
 
         int x = 10;
         int y = 10;
-        int size = 20;
+        int size = 50;
 
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
@@ -46,13 +46,11 @@ public class Checkerboard {
             x = 10;
             y += size;
         }
-
-
     }
 
     // Don't touch the code below
-    static int WIDTH = 320;
-    static int HEIGHT = 320;
+    static int WIDTH = 420;
+    static int HEIGHT = 420;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
