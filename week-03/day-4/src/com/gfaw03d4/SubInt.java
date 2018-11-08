@@ -8,7 +8,7 @@ public class SubInt {
         //  Returns the indeces of the numbers in the list where the first number is part of
         //  Returns an empty list if the number is not part any of the numbers in the list
 
-        int a = 2s;
+        int a = 2;
         int[] b = {1, 11, 34, 52, 61};
 
         System.out.println(subInt(a, b));
