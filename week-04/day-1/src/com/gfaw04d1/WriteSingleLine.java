@@ -22,6 +22,5 @@ public class WriteSingleLine {
 		} catch (Exception e) {
 			System.out.println("Unable to write file: my-file.txt");
 		}
-
 	}
 }
