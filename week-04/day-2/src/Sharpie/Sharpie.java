@@ -8,10 +8,10 @@ public class Sharpie {
 	public Sharpie (String color, float width) {
 		this.color = color;
 		this.width = width;
-		this.inkAmount = 100;
+		inkAmount = 100;
 	}
 
 	public void use() {
-		this.inkAmount--;
+		inkAmount--;
 	}
 }

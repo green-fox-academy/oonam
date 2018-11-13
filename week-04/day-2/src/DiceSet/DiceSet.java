@@ -37,6 +37,6 @@ public class DiceSet {
 
 	public static void main(String[] args) {
 		DiceSet diceSet = new DiceSet();
-		
+
 	}
 }
