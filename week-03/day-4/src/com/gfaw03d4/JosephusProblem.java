@@ -2,7 +2,7 @@ package com.gfaw03d4;
 
 public class JosephusProblem {
     public static void main(String[] args) {
-        int n = 12;
+        int n = 41;
         int k = 2;
         System.out.println("The chosen place is " + josephus(n, k) + ".");
     }
