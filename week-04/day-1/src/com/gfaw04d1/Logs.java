@@ -3,42 +3,44 @@ package com.gfaw04d1;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Logs {
 	public static void main(String[] args) {
-		String url = "https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/file-manipulations/logs/log.txt";
 		String filename = "log.txt";
+		List<String> lines = new ArrayList();
+		List<String> ipList = new ArrayList();
+		List<String> uniqueIpList = new ArrayList();
 
-		copyLogTxt(url, filename);
-		ipAdresses(filename);
+		lines = readLinesFromFile(filename, lines);
+		ipList = writeIpAddressesToList(lines, ipList);
+		uniqueIpList = uniqueIpAddresses(ipList, uniqueIpList);
+
+//		for (String element : ipList) {
+//			System.out.println(element);
+//		}
 	}
 
-	public static String ipAdresses(String localLogPath) {
-		List<String> lines = new ArrayList();
-
+	public static List<String> readLinesFromFile(String filename, List<String> lines){
 		try {
-			Path path = Paths.get(localLogPath);
+			Path path = Paths.get(filename);
 			lines = Files.readAllLines(path);
 		} catch (Exception e) {
 			System.out.println("Cant read the file.");
 		}
-
-		String ip = lines.substring(27, 38);
+		return lines;
 	}
 
-	public static boolean copyLogTxt(String filenameIn, String filenameOut) {
-		List<String> lines = new ArrayList();
-
-		try {
-			Path fNameIn = Paths.get(filenameIn);
-			Path fNameOut = Paths.get(filenameOut);
-			lines = Files.readAllLines(fNameIn);
-			Files.write(fNameOut, lines);
-			return true;
-		} catch (Exception e) {
-			return false;
+	public static List<String> writeIpAddressesToList(List<String> lines, List<String> ipList) {
+		for (String ips : lines) {
+			ipList.add(ips.substring(27, 38));
 		}
+		return ipList;
+	}
+
+	public static Set<String> uniqueIpAddresses(List<String> ipList, List<String> uniqueIpList) {
+
+
+		return uniqueIpList;
 	}
 }
