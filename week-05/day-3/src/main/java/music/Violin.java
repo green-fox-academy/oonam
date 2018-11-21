@@ -8,6 +8,7 @@ public class Violin extends StringedInstrument {
   }
 
   public Violin(int numberOfStrings) {
+    super.nameOfInstrument = "Violin";
     super.numberOfStrings = numberOfStrings;
   }
 

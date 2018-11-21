@@ -8,6 +8,7 @@ public class ElectricGuitar extends StringedInstrument {
   }
 
   public ElectricGuitar(int numberOfStrings) {
+    super.nameOfInstrument = "Electric Guitar";
     super.numberOfStrings = numberOfStrings;
   }
 
