@@ -6,6 +6,10 @@ abstract public class Animal {
   protected String gender;
   protected String color;
 
+  public Animal() {
+
+  }
+
   public Animal(String name) {
     this.name = name;
   }
