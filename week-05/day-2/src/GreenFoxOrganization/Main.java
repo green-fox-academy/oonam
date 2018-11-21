@@ -44,5 +44,9 @@ public class Main {
     awesome.addMentor(mentor);
     awesome.addMentor(gandhi);
     awesome.info();
+
+    Student johnTheClone;
+    johnTheClone = john.clone();
+    System.out.println("\n" + johnTheClone.previousOrganization);
   }
 }
