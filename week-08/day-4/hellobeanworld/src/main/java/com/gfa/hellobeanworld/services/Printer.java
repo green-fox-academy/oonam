@@ -1,4 +1,4 @@
-package com.gfa.hellobeanworld;
+package com.gfa.hellobeanworld.services;
 
 import org.springframework.stereotype.Service;
 
