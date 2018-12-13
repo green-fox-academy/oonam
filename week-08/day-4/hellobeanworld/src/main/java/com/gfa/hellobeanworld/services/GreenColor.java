@@ -4,7 +4,6 @@ import com.gfa.hellobeanworld.models.MyColor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
 public class GreenColor implements MyColor {
 
   @Autowired
