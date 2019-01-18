@@ -38,6 +38,12 @@ public class BookController {
     return "index";
   }
 
+  private List<Book> filterBooksByAuthor(String author) {
+    return books.stream()
+      .filter(book -> book.getAuthor().equals(author))
+      .collect(Collectors.toList());
+  }
+
   @RequestMapping(path = "/books/{id}/details", method = RequestMethod.GET)
   public String getBookById(Model model, @PathVariable(name="id") Integer id) {
     Book bookById = null;
@@ -55,12 +61,6 @@ public class BookController {
     }
 
     return "details";
-  }
-
-  private List<Book> filterBooksByAuthor(String author) {
-    return books.stream()
-      .filter(book -> book.getAuthor().equals(author))
-      .collect(Collectors.toList());
   }
 
   @RequestMapping(path = "/books/add", method = RequestMethod.GET)
